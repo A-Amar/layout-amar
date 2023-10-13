@@ -1,0 +1,208 @@
+html, body{
+    background-color: white;
+    padding: 0 80px 0 80px;
+    color: rgb(109, 110, 110);
+    
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+width: 25%;
+}
+.navbarre{
+    height: 10vh;
+    position: sticky;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: .9375rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li:hover{
+    cursor: pointer;
+}
+.img1{
+    width: 5%;
+    justify-content: center;
+    margin-left:50%;
+    margin-top: 50px;
+}
+.span{
+    color: #00b39b;
+}
+.h1{
+    text-align: center;
+    color: #00b39b;
+    font-family: Arial,  sans-serif ;
+    font-size: 2.125rem;
+    font-weight: 300;
+    letter-spacing: .3px;
+    margin: 1rem 0
+}
+.col1{
+    float: left;
+    width: 40%;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: larger;
+}
+.col2{
+    float: right;
+    width: 40%;
+    padding: 10px;font-size: larger;
+    font-weight: 300;
+}
+.services{
+    padding-top: 10px;
+    background-color:;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+
+}
+.C1{
+    width: 30%;
+    background-color: #00b39b;
+    border-radius: 15px;
+    float: left;
+    padding: 10px;
+}
+.C2{
+    width: 30%;
+    background-color: blue;
+    border-radius: 15px;
+    float:left;
+    padding: 10px;
+}
+.C3{
+    width: 30%;
+    background-color: rgb(18, 13, 37);
+    border-radius: 15px;
+    float: left;
+    padding: 10px;
+}
+.S1{
+    background-color: #00b39b;
+}
+.text1{
+    color: #00b39b;
+    font-size: xx-large;
+    width: 25%;
+    padding: 30px;
+    font-weight: 300;
+}
+.text2{
+    color: #00b39b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 300;
+    word-spacing: -.3px;
+}
+.partie2{
+    text-align: center;
+    max-width: 460px;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.we-are{
+    display: inline-block;
+}
+.office{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+.off{
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 311px;
+    z-index: 2;
+    position: relative;
+    display: block;
+}
+.desc{
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+    text-decoration: none;
+}
+ .image .bog{ 
+    width: 140%;
+
+}
+.text3{
+    text-align: center;
+    font-weight: 200;
+    color: black;
+}
+.btn2{
+    background-color: #3d83df;
+    text-align: center;
+    position: relative;
+    border-radius: 4px;
+    padding: 1.2em 1.5em;
+    color: white;
+    margin: 0 35% 0 40%;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    font-size: smaller;
+    font-weight: 700;
+}
+.btn{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.2em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: right;
+
+}
+.footer{
+    display: flex;
+    margin-top: 150px;
+    background-color: white;
+    text-align: center;
+    border-top: 1px solid;
+    border-color: rgb(104, 102, 102);
+    padding: 10px;
+}
